@@ -1,0 +1,1 @@
+document.getElementsByClassName("disabledButton").disabled = true;

@@ -1,0 +1,236 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+background-color: #1E1E1E;
+color: #FFFFFF;
+}
+
+p{
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+div{
+margin-top: 5%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  margin-left: 5%;
+  
+}
+
+.centerr{
+margin-top: 40px;
+margin-left: 71px;
+width: 318px;
+height: 86px;
+background-color: #1C162C;
+}
+
+table{
+margin-top: 32px;
+width: 958px;
+height: 576px;
+box-shadow: 5px 5px 5px 0px #1C162C, 5px 0px 0px 0px #1C162C;
+ border-collapse: collapse;
+}
+
+td{
+padding-top:  20px;
+padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+text-align: center;
+}
+
+tr{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 15px;
+padding-right: 15px;
+text-align: center;
+}
+
+td:first-child {
+  border-left: none;
+}
+
+tr:nth-child(7) td:nth-child(1),
+tr:nth-child(6) td:nth-child(1),
+tr:nth-child(5) td:nth-child(1),
+tr:nth-child(4) td:nth-child(1),
+tr:nth-child(3) td:nth-child(1),
+tr:nth-child(2) td:nth-child(1),
+tr:nth-child(1) td:nth-child(5),
+tr:nth-child(1) td:nth-child(4),
+tr:nth-child(1) td:nth-child(3),
+tr:nth-child(1) td:nth-child(2),
+tr:nth-child(1) td:nth-child(1){
+background-color: #1C162C;
+}
+
+button{
+display: inline-flex;
+align-items: center;
+padding: 15px;
+border-radius: 25px;
+border-style: hidden;
+cursor: url('img/setaNormal.png'), auto;
+  
+}
+
+.primary{
+background-color: #8257E5;
+}
+
+.secundary{
+background-color: #3C3748;
+}
+
+.tertiary{
+border-style: none;
+background-color: transparent;
+}
+
+.icone {
+margin-right: 5px;
+}
+
+
+.hoverPrimary:hover{
+background-color: #9674E5;
+}
+
+.hoverSecundary:hover{
+ background-color: #6A617F;
+}
+
+.hoverTertiary:hover{
+background-color: #261d3b;
+}
+
+.focusButton:focus{
+ border: 3px solid #FFFFFF;
+}
+
+.disabledButton{
+cursor: url('img/setaDisabled.png'), auto;
+}
+
+.disabledButton:disabled{
+opacity: 0.5;
+}
+
+.loadingButton{
+cursor: url('img/setaloading.png'), auto;
+}
+
+.movableButton{
+cursor: url('img/setaMovable.png'), auto;
+}
+
+.testeBotões{
+background-color: #1C162C;
+margin-left: 40px;
+width: 460px;
+height: 800px;
+}
+
+.testeBotões h1, 
+.testeBotões p
+{
+background-color: #1c162c00
+}
+
+.testeBotões button{
+margin-top: 20px;
+width: 317px;
+height: 48px;
+padding-left: 35%;
+}
+
+.testeBotões .primary{
+position: absolute;
+top: 170px;
+}
+
+.testeBotões .secundary{
+position: absolute;
+top: 250px;
+}
+
+.testeBotões .tertiary{
+position: absolute;
+top: 335px;
+}
+
+.testeBotões .primary,
+.testeBotões .secundary,
+.testeBotões .tertiary{
+  
+justify-content: center;
+padding-left: 0px;
+padding-right: 100;
+}
+
+.tabelanormal{
+color: #FFFFFF;
+}
+
+.tabelatrdefault{
+color: #FFFFFF;
+}
+
+.tabelatrhover{
+color: #FFFFFF;
+}
+
+.tabelatrfocus{
+color: #FFFFFF;
+}
+
+.tabelatrdisabled{
+color: #FFFFFF;
+}
+
+.tabelatrloading{
+color: #FFFFFF;
+}
+
+.tabelatrmovable{
+color: #FFFFFF;
+}
+
+.testNormal{
+visibility: visible;
+}
+
+.testedefault{
+visibility: hidden;
+}
+
+.testehover{
+visibility: hidden;
+}
+
+.testefocus{
+visibility: hidden;
+}
+
+.testedisabled{
+visibility: hidden;
+}
+
+.testeloading{
+visibility: hidden;
+}
+
+.testemovable{
+visibility: hidden;
+}

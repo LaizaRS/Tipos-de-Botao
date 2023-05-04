@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Botão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div>
+                <h1>Tipos de Botão</h1>
+                <p>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. <br>
+                   Acopanhe abaixo um exemplo de tipos e propriedades.</p>
+            </div>
+            <div>
+                <table>
+                    <tr class="tabelanormal">
+                        <td></td>
+                        <td>BOTÃO PRIMARIO</td>
+                        <td>BOTÃO SECUNDARIO</td>
+                        <td>BOTAO TERCIARIO</td>
+                        <td>CURSOR</td>
+                    </tr>
+                    <tr class="tabelatrdefault">
+                        <td>DEFAULT</td>
+                        <td><BUtton class="primary">DEFAULT PRIMARY</BUtton></td>
+                        <td><BUtton class="secundary">DEFAULT SECUNDARY</BUtton></td>
+                        <td><BUTton class="tertiary">DEFAULT TERTIARY</BUTton></td>
+                        <td> <img src="img/setaNormal.png" alt=""></td>
+                    </tr>
+                    <tr class="tabelatrhover">
+                        <td>HOVER</td>
+                        <td><BUtton class="primary">HOVER PRIMARY</BUtton></td>
+                        <td><BUtton class="secundary">HOVER SECUNDARY</BUtton></td>
+                        <td><BUTton class="tertiary">HOVER TERTIARY</BUTton></td>
+                        <td> <img src="img/setaNormal.png" alt=""> </td>
+                    </tr>
+                    <tr class="tabelatrfocus">
+                        <td>FOCUS</td>
+                        <td><BUtton class="primary">FOCUS PRIMARY</BUtton></td>
+                        <td><BUtton class="secundary">FOCUS SECUNDARY</BUtton></td>
+                        <td><BUTton class="tertiary">FOCUS TERTIARY</BUTton></td>
+                        <td> <img src="img/setaNormal.png" alt=""></td>
+                    </tr>
+                    <tr class="tabelatrdisabled">
+                        <td>DISABLED</td>
+                        <td><BUtton type="submit"  class="primary ">DISABLED PRIMARY</BUtton></td>
+                        <td><BUtton type="submit"  class="secundary ">DISABLED SECUNDARY</BUtton></td>
+                        <td><BUTton type="submit"  class="tertiary ">DISABLED TERTIARY</BUTton></td>
+                        <td> <img src="img/setaDisabled.png" alt=""></td>
+                    </tr>
+                       <tr class="tabelatrloading">
+                        <td>LOADING</td>
+                        <td><BUtton class="primary"> <img class="icone" src="img/loading.svg" alt="icone carregando"> LOADING PRIMARY</BUtton></td>
+                        <td><BUtton class="secundary"> <img class="icone" src="img/loading.svg" alt="icone carregando"> LOADING SECUNDARY</BUtton></td>
+                        <td><BUTton class="tertiary"> <img class="icone" src="img/loading.svg" alt="icone carregando"> LOADING TERTIARY</BUTton></td>
+                        <td> <img src="img/setaloading.png" alt=""></td>
+                    </tr>
+                       <tr class="tabelatrmovable">
+                        <td>MOVABLE</td>
+                        <td><BUtton class="primary"> <img class="icone" src="img/Vector.png" alt="icone"> MOVABLE PRIMARY</BUtton></td>
+                        <td><BUtton class="secundary"> <img class="icone" src="img/Vector.png" alt="icone"> MOVABLE SECUNDARY</BUtton></td>
+                        <td><BUTton class="tertiary"> <img class="icone" src="img/Vector.png" alt="icone"> MOVABLE TERTIARY</BUTton></td>
+                        <td> <img src="img/setaMovable.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="testeBotões">
+            <div class="centerr">
+                <h1>Teste os botões</h1>
+                <p>Interaja com os botoes e observe a <br> mudança de aparência e de cursores</p>
+                
+                    <div class="testNormal">
+                        <button class="primary"> Interaja comigo</button>
+                        <button class="secundary"> Interaja comigo</button>
+                        <button class="tertiary"> <img class="icone" src="img/Vector.png" alt="icone"> Interaja comigo</button>
+                    </div>
+
+                    <div class="testedefault">
+                        <BUtton class="primary defaultButton">DEFAULT PRIMARY</BUtton>
+                        <BUtton class="secundary defaultButton">DEFAULT SECUNDARY</BUtton>
+                        <BUTton class="tertiary defaultButton">DEFAULT TERTIARY</BUTton>
+                    </div>
+
+                    <div class="testehover">
+                        <BUtton class="primary hoverPrimary">HOVER PRIMARY</BUtton>
+                        <BUtton class="secundary hoverSecundary">HOVER SECUNDARY</BUtton>
+                        <BUTton class="tertiary hoverTertiary">HOVER TERTIARY</BUTton>
+                    </div>               
+
+                    <div class="testefocus">
+                        <BUtton class="primary focusButton">FOCUS PRIMARY</BUtton>
+                        <BUtton class="secundary focusButton">FOCUS SECUNDARY</BUtton>
+                        <BUTton class="tertiary focusButton">FOCUS TERTIARY</BUTton>
+                    </div>
+
+                    <div class="testedisabled">
+                        <BUtton type="submit" disabled class="primary disabledButton">DISABLED PRIMARY</BUtton>
+                        <BUtton type="submit" disabled class="secundary disabledButton">DISABLED SECUNDARY</BUtton>
+                        <BUTton type="submit" disabled class="tertiary disabledButton">DISABLED TERTIARY</BUTton>
+                    </div>
+
+                    <div class="testeloading">
+                        <BUtton class="primary loadingButton"> <img class="icone" src="img/loading.svg" alt="icone carregando"> LOADING PRIMARY</BUtton>
+                        <BUtton class="secundary loadingButton"> <img class="icone" src="img/loading.svg" alt="icone carregando"> LOADING SECUNDARY</BUtton>
+                        <BUTton class="tertiary loadingButton"> <img class="icone" src="img/loading.svg" alt="icone carregando"> LOADING TERTIARY</BUTton>
+                    </div>
+
+                    <div class="testemovable">
+                        <BUtton class="primary movableButton"> <img class="icone" src="img/Vector.png" alt="icone"> MOVABLE PRIMARY</BUtton>
+                        <BUtton class="secundary movableButton"> <img class="icone" src="img/Vector.png" alt="icone"> MOVABLE SECUNDARY</BUtton>
+                        <BUTton class="tertiary movableButton"> <img class="icone" src="img/Vector.png" alt="icone"> MOVABLE TERTIARY</BUTton>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+<script src="disabled.js"></script>
+<script src="movable.js"></script>
+<script src="funcionando.js"></script>
+</body>
+</html>
