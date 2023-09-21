@@ -18,11 +18,14 @@ margin-top: 5%;
 }
 
 .container {
+
+  width: auto;
+  max-width: 1276px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: auto;
-  margin-left: 5%;
-  
+  margin-left: 30%;  
+  transform: translateX(-30%);
 }
 
 .centerr{
